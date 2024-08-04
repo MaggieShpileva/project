@@ -4,7 +4,7 @@ import style from "./style.module.css";
 
 const Logo = () => {
   return (
-    <Link to="/" className={style.logo}>
+    <Link to="/project" className={style.logo}>
       <img src={logo_img} alt="" />
       <span>Jelly Belly</span>
     </Link>

@@ -10,7 +10,7 @@ import Review from "./pages/Review";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/project",
     element: <Layout />,
     loader: Loader,
     children: [
